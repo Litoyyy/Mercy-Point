@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-    import { infoNews } from '/_nuxt/composables/info/news';
+    import { infoNews } from '~/composables/info/news';
 
     const { newsArray } = infoNews();
 

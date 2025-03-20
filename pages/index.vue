@@ -5,10 +5,10 @@
 
     Swiper.use([Autoplay]);
 
-    import { infoProjects } from '/_nuxt/composables/info/projects';
-    import { infoPrograms } from '/_nuxt/composables/info/programs';
-    import { infoMembers } from '/_nuxt/composables/info/members';
-    import { infoNews } from '/_nuxt/composables/info/news';
+    import { infoProjects } from '~/composables/info/projects';
+    import { infoPrograms } from '~/composables/info/programs';
+    import { infoMembers } from '~/composables/info/members';
+    import { infoNews } from '~/composables/info/news';
 
     const { projectsArray } = infoProjects();
     const { programsArray } = infoPrograms();

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-    import { infoProjects } from '/_nuxt/composables/info/projects';
+    import { infoProjects } from '~/composables/info/projects';
 
     const { projectsArray } = infoProjects();
 
