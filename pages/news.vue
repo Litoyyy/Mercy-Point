@@ -31,7 +31,7 @@
                 </div>
                 <div class="news-all-section__btn-block">
                     <ElementButton
-                        v-if="cutNewsArr.length < cutNewsArr.length"
+                        v-if="cutNewsArr.length < newsArray.length"
                         @click="paginationVal += 4"
                     >Загрузить еще
                     </ElementButton>

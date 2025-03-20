@@ -19,7 +19,7 @@
                 <div class="news-page-section__text" v-if="selectedNews && !!selectedNews.text">
                     <div class="news-page-section__text__container">
                         <h1>{{ selectedNews.title }}</h1>
-                        <div v-html="selectedNews.text"></div>
+                        <div class="news-page-section__text__texts" v-html="selectedNews.text"></div>
                         <ElementLink
                             color="accent"
                             link="/news/"
@@ -57,6 +57,7 @@
                 @include df_fdc;
                 gap: 3rem;
                 max-width: 53.375rem;
+                @include text_1;
                 @include mobile {
                     gap: 1.5rem;
                 }
@@ -68,6 +69,13 @@
                 }
                 p {
                     @include text_1;
+                }
+            }
+            &__texts {
+                @include df_fdc;
+                gap: 3rem;
+                @include mobile {
+                    gap: 1.5rem;
                 }
             }
         }

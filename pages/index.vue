@@ -42,7 +42,7 @@
         slidesOffsetAfter: 16,
         breakpoints: {
             769: {
-                slidesPerView: 4,
+                slidesPerView: 5.3,
                 spaceBetween: 24,
                 slidesOffsetBefore: 240,
                 slidesOffsetAfter: 240,
