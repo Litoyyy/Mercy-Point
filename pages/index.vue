@@ -67,6 +67,16 @@
         '/images/partners/partners-8.png',
         '/images/partners/partners-9.png',
         '/images/partners/partners-10.png',
+        '/images/partners/partners-1.png',
+        '/images/partners/partners-2.png',
+        '/images/partners/partners-3.png',
+        '/images/partners/partners-4.png',
+        '/images/partners/partners-5.png',
+        '/images/partners/partners-6.png',
+        '/images/partners/partners-7.png',
+        '/images/partners/partners-8.png',
+        '/images/partners/partners-9.png',
+        '/images/partners/partners-10.png',
     ]);
 
     const breakpoints = {
