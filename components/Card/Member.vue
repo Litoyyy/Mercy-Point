@@ -8,7 +8,7 @@
     <div class="member-card">
         <div class="member-card__image-block">
             <img :src="info.image" alt="Member image" v-if="!!info.image">
-            <img src="/_nuxt/assets/images/stub.webp" alt="Member image" v-else>
+            <img src="/images/stub.webp" alt="Member image" v-else>
         </div>
         <div class="member-card__info-block">
             <div class="member-card__info-block__title">

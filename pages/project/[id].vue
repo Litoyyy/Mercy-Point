@@ -14,7 +14,7 @@
             <div class="news-page-section__container container">
                 <div class="news-page-section__banner">
                     <img :src="selectedProject.image" alt="Projects Banner" v-if="selectedProject && !!selectedProject.image">
-                    <img src="/_nuxt/assets/images/stub.webp" alt="Projects Banner" v-else>
+                    <img src="/images/stub.webp" alt="Projects Banner" v-else>
                 </div>
                 <div class="news-page-section__text" v-if="selectedProject && !!selectedProject.text">
                     <div class="news-page-section__text__container">

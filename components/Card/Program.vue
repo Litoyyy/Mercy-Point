@@ -10,7 +10,7 @@
         <div class="programm-card__info-block">
             <div class="programm-card__image-block">
                 <img :src="info.image" alt="Project image" v-if="!!info.image">
-                <img src="/_nuxt/assets/images/stub.webp" alt="Project image" v-else>
+                <img src="/images/stub.webp" alt="Project image" v-else>
             </div>
             <div class="programm-card__text-block">
                 <span class="programm-card__text-block__title">{{ info.title }}</span>

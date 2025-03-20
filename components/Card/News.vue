@@ -8,7 +8,7 @@
     <NuxtLink :to="'/news-page/' + info.id + '/'" class="news-card">
         <div class="news-card__image-block">
             <img :src="info.image" alt="News image" v-if="!!info.image">
-            <img src="/_nuxt/assets/images/stub.webp" alt="News image" v-else>
+            <img src="/images/stub.webp" alt="News image" v-else>
         </div>
         <div class="news-card__info-block">
             <div class="news-card__info-block__tags">

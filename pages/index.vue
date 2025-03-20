@@ -57,16 +57,16 @@
 
 
     const partnersArray = ref([
-        '~/assets/images/partners/partners-1.png',
-        '~/assets/images/partners/partners-2.png',
-        '~/assets/images/partners/partners-3.png',
-        '~/assets/images/partners/partners-4.png',
-        '~/assets/images/partners/partners-5.png',
-        '~/assets/images/partners/partners-6.png',
-        '~/assets/images/partners/partners-7.png',
-        '~/assets/images/partners/partners-8.png',
-        '~/assets/images/partners/partners-9.png',
-        '~/assets/images/partners/partners-10.png',
+        '/images/partners/partners-1.png',
+        '/images/partners/partners-2.png',
+        '/images/partners/partners-3.png',
+        '/images/partners/partners-4.png',
+        '/images/partners/partners-5.png',
+        '/images/partners/partners-6.png',
+        '/images/partners/partners-7.png',
+        '/images/partners/partners-8.png',
+        '/images/partners/partners-9.png',
+        '/images/partners/partners-10.png',
     ]);
 
     const breakpoints = {
@@ -102,7 +102,7 @@
                                     </ElementButton>
                                 </div>
                                 <div class="hero-block-section__slide__image-block">
-                                    <img src="/_nuxt/assets/images/hero-block-image.svg" alt="Hero image">
+                                    <img src="/images/hero-block-image.svg" alt="Hero image">
                                 </div>
                             </div>
                         </swiper-slide>
@@ -123,7 +123,7 @@
                                     </ElementButton>
                                 </div>
                                 <div class="hero-block-section__slide__image-block">
-                                    <img src="/_nuxt/assets/images/hero-block-image.svg" alt="Hero image">
+                                    <img src="/images/hero-block-image.svg" alt="Hero image">
                                 </div>
                             </div>
                         </swiper-slide>
@@ -144,7 +144,7 @@
                                     </ElementButton>
                                 </div>
                                 <div class="hero-block-section__slide__image-block">
-                                    <img src="/_nuxt/assets/images/hero-block-image.svg" alt="Hero image">
+                                    <img src="/images/hero-block-image.svg" alt="Hero image">
                                 </div>
                             </div>
                         </swiper-slide>

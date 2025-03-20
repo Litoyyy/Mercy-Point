@@ -8,7 +8,7 @@
     <NuxtLink :to="'/project/' + info.id + '/'" class="project-card">
         <div class="project-card__image-block">
             <img :src="info.image" alt="Project image" v-if="!!info.image">
-            <img src="/_nuxt/assets/images/stub.webp" alt="Project image" v-else>
+            <img src="/images/stub.webp" alt="Project image" v-else>
         </div>
         <div class="project-card__info-block">
             <div class="project-card__title-block">
