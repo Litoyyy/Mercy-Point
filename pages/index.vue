@@ -57,16 +57,16 @@
 
 
     const partnersArray = ref([
-        '/_nuxt/assets/images/partners/partners-1.png',
-        '/_nuxt/assets/images/partners/partners-2.png',
-        '/_nuxt/assets/images/partners/partners-3.png',
-        '/_nuxt/assets/images/partners/partners-4.png',
-        '/_nuxt/assets/images/partners/partners-5.png',
-        '/_nuxt/assets/images/partners/partners-6.png',
-        '/_nuxt/assets/images/partners/partners-7.png',
-        '/_nuxt/assets/images/partners/partners-8.png',
-        '/_nuxt/assets/images/partners/partners-9.png',
-        '/_nuxt/assets/images/partners/partners-10.png',
+        '~/assets/images/partners/partners-1.png',
+        '~/assets/images/partners/partners-2.png',
+        '~/assets/images/partners/partners-3.png',
+        '~/assets/images/partners/partners-4.png',
+        '~/assets/images/partners/partners-5.png',
+        '~/assets/images/partners/partners-6.png',
+        '~/assets/images/partners/partners-7.png',
+        '~/assets/images/partners/partners-8.png',
+        '~/assets/images/partners/partners-9.png',
+        '~/assets/images/partners/partners-10.png',
     ]);
 
     const breakpoints = {
