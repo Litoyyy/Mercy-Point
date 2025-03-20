@@ -1,0 +1,18 @@
+.title-block {
+    @include df_ac;
+    justify-content: space-between;
+    &__title {
+        @include df_fdc;
+        gap: .375rem;
+        .heading {
+            @include heading_1;
+            span {
+                @include text_1;
+            }
+        }
+        .breadcrumbs {
+            @include df_ac;
+            gap: .5rem;
+        }
+    }
+}

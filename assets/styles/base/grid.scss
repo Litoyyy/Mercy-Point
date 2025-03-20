@@ -1,0 +1,9 @@
+.container{
+  @include df_fdc;
+  gap: 3rem;
+  padding: 3rem 15rem;
+  @include mobile {
+    gap: 1.5rem;
+    padding: 1.5rem 1rem;
+  }
+}
