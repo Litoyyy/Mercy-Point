@@ -5,11 +5,11 @@
                 <ElementLogo/>
                 <div class="header-section__links">
                     <ElementLink
-                        link="news"
+                        link="/news/"
                     >Новости
                     </ElementLink>
                     <ElementLink
-                        link="projects"
+                        link="/projects/"
                     >Проекты
                     </ElementLink>
                 </div>

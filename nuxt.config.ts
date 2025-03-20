@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   css: [
-      '~/assets/styles/main.css',
+      '/_nuxt/assets/styles/main.css',
   ],
 
   vite: {

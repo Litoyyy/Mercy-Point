@@ -1,17 +1,17 @@
 <script lang="ts" setup>
-    import { infoProjects } from '/_nuxt/composables/info/projects';
+    import { infoNews } from '/_nuxt/composables/info/news';
 
-    const { projectsArray } = infoProjects();
+    const { newsArray } = infoNews();
 
     const paginationVal = ref(4);
 
-    const cutProjectsArr = computed(() => projectsArray.value.slice(0, paginationVal.value));
+    const cutNewsArr = computed(() => newsArray.value.slice(0, paginationVal.value));
 </script>
 
 <template>
     <section>
-        <div class="projects-all-section">
-            <div class="projects-all-section__container container">
+        <div class="news-all-section">
+            <div class="news-all-section__container container">
                 <div class="title-block">
                     <div class="title-block__title">
                         <div class="breadcrumbs">
@@ -19,19 +19,19 @@
                             >Главная
                             </ElementLink>
                             <span>/</span>
-                            <ElementLink link="/projects/"
-                            >Проекты
+                            <ElementLink link="/news/"
+                            >Новости
                             </ElementLink>
                         </div>
-                        <span class="heading">Проекты фонда</span>
+                        <span class="heading">Новости и события фонда</span>
                     </div>
                 </div>
-                <div class="projects-all-section__info-block">
-                    <CardProject :info="project" v-for="project in cutProjectsArr"/>
+                <div class="news-all-section__info-block">
+                    <CardNews :info="news" v-for="news in cutNewsArr"/>
                 </div>
-                <div class="projects-all-section__btn-block">
+                <div class="news-all-section__btn-block">
                     <ElementButton
-                        v-if="cutProjectsArr.length < projectsArray.length"
+                        v-if="cutNewsArr.length < cutNewsArr.length"
                         @click="paginationVal += 4"
                     >Загрузить еще
                     </ElementButton>
@@ -42,7 +42,7 @@
 </template>
 
 <style lang="scss">
-    .projects-all-section {
+    .news-all-section {
         &__info-block {
             @include grid(2, 3rem);
             @include mobile {

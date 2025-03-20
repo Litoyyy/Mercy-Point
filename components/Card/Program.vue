@@ -20,7 +20,7 @@
         </div>
         <ElementButton
             color="bordered"
-            link="donation"
+            link="/donation/"
         >
             Учавствовать
         </ElementButton>
