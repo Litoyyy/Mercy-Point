@@ -11,10 +11,13 @@
     "watch": "sass --watch ./assets/styles/main.scss ./assets/styles/main.css"
   },
   "dependencies": {
+    "imask": "^7.6.1",
     "nuxt": "^3.16.1",
     "nuxt-swiper": "^2.0.0",
+    "v-mask": "^2.3.0",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.5.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",

@@ -3,6 +3,7 @@
         size?: 'basic' | 'small',
         color?: 'subdued' | 'bordered',
         link?: string,
+        active?: boolean,
     }>()
 </script>
 
@@ -11,12 +12,14 @@
         class="button"
         :size="size || 'basic'"
         :color="color || 'subdued'"
+        :active="active"
     ><slot />
     </NuxtLink>
     <button v-else
         class="button"
         :size="size || 'basic'"
         :color="color || 'subdued'"
+        :active="active"
     ><slot />
     </button>
 </template>
@@ -62,6 +65,12 @@
             background-color: $white;
         }
 
+        &[data-state="disabled"] {
+            pointer-events: none;
+            background-color: $dark-subdued-32;
+            color: $white;
+        }
+
         &:hover {
             &[color="subdued"] {
                 background-color: $accent;
@@ -71,12 +80,14 @@
             }
         }
         &:active,
-        &[data-active] {
+        &[active="true"] {
             &[color="subdued"] {
                 background-color: $dark;
             }
             &[color="bordered"] {
                 border-color: $accent;
+                background-color: $accent;
+                color: $white;
             }
         }
     }
